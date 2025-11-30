@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SplashScreenDemo" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+    <style name="Theme.SplashScreenDemo.Splash" parent="Theme.SplashScreen">
+
+        <!--        Set the splash screen background color-->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!--        Set the splash screen icon (centered)-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ohqz4k01</item>
+
+        <!--        Optional: Animation when exiting splash-->
+        <item name="windowSplashScreenAnimationDuration">300</item> <!-- optional, looks nice -->
+
+        <!--        Set the theme that your app will use after splash-->
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenDemo</item>
+    </style>
+
+
+</resources>
